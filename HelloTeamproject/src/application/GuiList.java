@@ -15,6 +15,7 @@ public class GuiList extends JPanel {
 
 	private String label[] = { "Thomas", "Alex", "Thomas" };
 
+
 	private JList<String> list;
 
 	public GuiList() {
@@ -31,7 +32,7 @@ public class GuiList extends JPanel {
 
 		/*list.addListSelectionListener(new ListSelectionListener() {
 			public void valueChanged(ListSelectionEvent e) {
-				System.out.println(e.toString());
+				System.out.println("[Values changed]");
 			}
 		}); */
 

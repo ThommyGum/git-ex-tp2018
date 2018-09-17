@@ -29,11 +29,11 @@ public class GuiList extends JPanel {
 		m.setLeadAnchorNotificationEnabled(false);
 		list.setSelectionModel(m);
 
-		list.addListSelectionListener(new ListSelectionListener() {
+		/*list.addListSelectionListener(new ListSelectionListener() {
 			public void valueChanged(ListSelectionEvent e) {
 				System.out.println(e.toString());
 			}
-		});
+		}); */
 
 		button.addActionListener(new PrintListener(this));
 

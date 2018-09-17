@@ -14,8 +14,6 @@ public class GuiList extends JPanel {
 	private static final long serialVersionUID = 1L;
 
 	private String label[] = { "Thomas", "Alex", "Thomas" };
-
-
 	private JList<String> list;
 
 	public GuiList() {
